@@ -1,6 +1,6 @@
 # stegnography_project
 
-
+Download the exe version and run it 
 # Steganography Web Tool
 
 This is a simple **Steganography Tool** that allows users to:
@@ -11,7 +11,7 @@ This is a simple **Steganography Tool** that allows users to:
 ✅ Works completely **in the browser** (No backend required)  
 ✅ Supports **PNG images**  
 ✅ Uses **Least Significant Bit (LSB) Steganography**  
-✅ Secure message embedding & extraction  
+✅ Secure message embedding & Extraction  
 
 ## **🚀 Live Demo**
 [🔗 Click here to view the live app](https://rrazik487.github.io/stegnography_project//)
