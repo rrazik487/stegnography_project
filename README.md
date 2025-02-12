@@ -14,7 +14,7 @@ This is a simple **Steganography Tool** that allows users to:
 ✅ Secure message embedding & extraction  
 
 ## **🚀 Live Demo**
-[🔗 Click here to view the live app](https://github.com/rrazik487/stegnography_project/)
+[🔗 Click here to view the live app](https://rrazik487.github.io/stegnography_project//)
 
 ## **📌 How to Use**
 ### **Embedding a Message**
