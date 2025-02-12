@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Web Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Steganography Web Tool</h1>
+
+        <!-- Embed Message Section -->
+        <h2>Embed Message into Image</h2>
+        <input type="file" id="uploadImage" accept="image/png">
+        <textarea id="secretMessage" placeholder="Enter your secret message..."></textarea>
+        <button onclick="embedMessage()">Embed & Download</button>
+        <canvas id="stegoCanvas" class="hidden"></canvas>
+        <a id="downloadLink" class="hidden">Download Stego Image</a>
+
+        <!-- Extract Message Section -->
+        <h2>Extract Message from Image</h2>
+        <input type="file" id="uploadStego" accept="image/png">
+        <button onclick="extractMessage()">Extract Message</button>
+        <p id="extractedMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
